@@ -23,6 +23,8 @@ class UniversityforumApplicationTests {
         all.forEach(System.out::println);
 
 
+
+
     }
 
 }

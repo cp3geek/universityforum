@@ -15,7 +15,6 @@ public class AdminController {
     @PostMapping(value = "/loginbackstage")
     public boolean adminLogin(String username, String password){
         System.out.println(username+" "+password);
-
         return adminService.adminLogin(username,password);
     }
 }
