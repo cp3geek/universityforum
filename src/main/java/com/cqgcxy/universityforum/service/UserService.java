@@ -4,6 +4,7 @@ import com.cqgcxy.universityforum.domain.User;
 
 public interface UserService {
 
-    boolean userLogin(String email,String password);
+    User userLogin(String email,String password);
+    User userRegister(User user);
 
 }
