@@ -3,8 +3,10 @@ package com.cqgcxy.universityforum.service.impl;
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.repository.UserRepository;
 import com.cqgcxy.universityforum.service.UserService;
+import lombok.ToString;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
@@ -22,6 +24,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional
     public User userRegister(User user) {
         return userRepository.save(user);
     }

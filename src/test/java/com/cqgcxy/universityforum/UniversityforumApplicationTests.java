@@ -22,6 +22,8 @@ class UniversityforumApplicationTests {
     UserRepository userRepository;
     @Autowired
     ArticleRepositry articleRepositry;
+    @Autowired
+    UserService userService;
 
 
     @Test
@@ -36,7 +38,7 @@ class UniversityforumApplicationTests {
     }
     @Test
     void TestAddUser(){
-
+        userService.userRegister(new User());
     }
 
 }
