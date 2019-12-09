@@ -24,8 +24,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @Transactional
+    @Transactional//如需增删改，加上事务管理注解
     public User userRegister(User user) {
         return userRepository.save(user);
     }
+
+
 }

@@ -28,4 +28,9 @@ public class ArticleServiceImpl implements ArticleService {
         Pageable pageable=PageRequest.of(page,size,Sort.Direction.ASC,"artId");
         return articleRepositry.findAll(pageable);
     }
+
+    @Override
+    public List<Article> findCommandArticle() {
+        return null;
+    }
 }
