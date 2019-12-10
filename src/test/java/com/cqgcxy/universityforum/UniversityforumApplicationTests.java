@@ -6,6 +6,8 @@ import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.repository.ArticleRepositry;
 import com.cqgcxy.universityforum.repository.UserRepository;
+import com.cqgcxy.universityforum.service.ArticleService;
+import com.cqgcxy.universityforum.service.ArticleTypeService;
 import com.cqgcxy.universityforum.service.UserService;
 import com.cqgcxy.universityforum.service.impl.UserServiceImpl;
 import org.junit.jupiter.api.Test;
@@ -25,6 +27,9 @@ class UniversityforumApplicationTests {
     @Autowired
     UserService userService;
 
+    @Autowired
+    ArticleTypeService articleTypeService;
+
 
     @Test
     void contextLoads() {
@@ -39,6 +44,10 @@ class UniversityforumApplicationTests {
     @Test
     void TestAddUser(){
         userService.userRegister(new User());
+    }
+    @Test
+    void TestArticleType(){
+        articleTypeService.getallArticleType().forEach(System.out::println);
     }
 
 }
