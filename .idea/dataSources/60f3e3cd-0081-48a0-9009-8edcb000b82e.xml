@@ -922,27 +922,35 @@
     </collation>
     <table id="232" parent="2" name="admin">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="233" parent="2" name="article">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="234" parent="2" name="article_type">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="235" parent="2" name="attention">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="236" parent="2" name="collect">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="237" parent="2" name="comment">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="238" parent="2" name="comment_multi">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="239" parent="2" name="user">
       <Engine>MyISAM</Engine>
+      <Collation>utf8_general_ci</Collation>
     </table>
     <column id="240" parent="232" name="admin_id">
       <Position>1</Position>
@@ -1045,187 +1053,192 @@
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="259" parent="234" name="PRIMARY">
+    <column id="259" parent="234" name="type_desc">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="260" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>type_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="260" parent="235" name="att_id">
+    <column id="261" parent="235" name="att_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="235" name="att_author_id">
+    <column id="262" parent="235" name="att_author_id">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="235" name="att_user_id">
+    <column id="263" parent="235" name="att_user_id">
       <Position>3</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="263" parent="235" name="PRIMARY">
+    <key id="264" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>att_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="264" parent="236" name="col_id">
+    <column id="265" parent="236" name="col_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="265" parent="236" name="col_art_id">
+    <column id="266" parent="236" name="col_art_id">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="266" parent="236" name="col_user_id">
+    <column id="267" parent="236" name="col_user_id">
       <Position>3</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="267" parent="236" name="PRIMARY">
+    <key id="268" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>col_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="268" parent="237" name="com_id">
+    <column id="269" parent="237" name="com_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="269" parent="237" name="com_art_id">
+    <column id="270" parent="237" name="com_art_id">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="270" parent="237" name="com_content">
+    <column id="271" parent="237" name="com_content">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="271" parent="237" name="com_time">
+    <column id="272" parent="237" name="com_time">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="272" parent="237" name="com_user_id">
+    <column id="273" parent="237" name="com_user_id">
       <Position>5</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="273" parent="237" name="PRIMARY">
+    <key id="274" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>com_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="274" parent="238" name="com_multi_id">
+    <column id="275" parent="238" name="com_multi_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="238" name="com_id">
+    <column id="276" parent="238" name="com_id">
       <Position>2</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="238" name="com_multi_content">
+    <column id="277" parent="238" name="com_multi_content">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="238" name="com_multi_time">
+    <column id="278" parent="238" name="com_multi_time">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="278" parent="238" name="com_multi_user_id">
+    <column id="279" parent="238" name="com_multi_user_id">
       <Position>5</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="279" parent="238" name="PRIMARY">
+    <key id="280" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>com_multi_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="280" parent="239" name="user_id">
+    <column id="281" parent="239" name="user_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="239" name="user_blog">
+    <column id="282" parent="239" name="user_blog">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="239" name="user_concern">
+    <column id="283" parent="239" name="user_concern">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="239" name="user_email">
+    <column id="284" parent="239" name="user_email">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="239" name="user_img">
+    <column id="285" parent="239" name="user_img">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="239" name="user_name">
+    <column id="286" parent="239" name="user_name">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="239" name="user_phone">
+    <column id="287" parent="239" name="user_phone">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="239" name="user_sex">
+    <column id="288" parent="239" name="user_sex">
       <Position>8</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="239" name="user_show">
+    <column id="289" parent="239" name="user_show">
       <Position>9</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="239" name="user_status">
+    <column id="290" parent="239" name="user_status">
       <Position>10</Position>
       <DataType>tinyint(4)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="239" name="user_time">
+    <column id="291" parent="239" name="user_time">
       <Position>11</Position>
       <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="239" name="user_fans">
+    <column id="292" parent="239" name="user_fans">
       <Position>12</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="239" name="user_password">
+    <column id="293" parent="239" name="user_password">
       <Position>13</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="293" parent="239" name="PRIMARY">
+    <key id="294" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>

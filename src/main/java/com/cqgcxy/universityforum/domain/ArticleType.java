@@ -24,5 +24,6 @@ public class ArticleType {
 
     private String typeName;//标签类型
     private Date typeCreateTime;//创建时间
+    private String typeDesc;//描述
 
 }
