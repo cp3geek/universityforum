@@ -2,6 +2,8 @@ package com.cqgcxy.universityforum.controller;
 
 import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
+import com.cqgcxy.universityforum.repository.ArticleRepositry;
+import com.cqgcxy.universityforum.resultmap.ViewArtAndUser;
 import com.cqgcxy.universityforum.service.ArticleService;
 import com.cqgcxy.universityforum.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +21,8 @@ public class ArticleController {
 
     @Autowired
     ArticleService articleService;
+    @Autowired
+    ArticleRepositry articleRepositry;
 
 
     @PostMapping("/getallarticle")
@@ -27,21 +31,21 @@ public class ArticleController {
     }
 
 
-    @PostMapping("/pagearticle")
-    public Page<Article>  findArticleNoQuery(
-            @RequestParam(value = "page",defaultValue = "0")Integer page,
-            @RequestParam(value = "size",defaultValue = "5")Integer size)
-    {
-        Page<Article> pages = articleService.findArticleNoCriteria(page, size);
-        
-//        pages.forEach(System.out::println);
-//        System.out.println("总记录数"+pages.getTotalElements());
-//        System.out.println("总页数"+pages.getTotalPages());
-//        System.out.println("当前页面有多少条记录"+pages.getNumberOfElements());
-//        System.out.println("当前页面的list的"+pages.getContent());
-//        System.out.println("当前第几页"+pages.getNumber()+1);
-        return pages;
-    }
+//    @PostMapping("/pagearticle1")
+//    public Page<Article>  findArticleNoQuery(
+//            @RequestParam(value = "page",defaultValue = "0")Integer page,
+//            @RequestParam(value = "size",defaultValue = "5")Integer size)
+//    {
+//        Page<Article> pages = articleService.findArticleNoCriteria(page, size);
+//
+////        pages.forEach(System.out::println);
+////        System.out.println("总记录数"+pages.getTotalElements());
+////        System.out.println("总页数"+pages.getTotalPages());
+////        System.out.println("当前页面有多少条记录"+pages.getNumberOfElements());
+////        System.out.println("当前页面的list的"+pages.getContent());
+////        System.out.println("当前第几页"+pages.getNumber()+1);
+//        return pages;
+//    }
 
 
     @PostMapping("/getarticlebytypeid")
@@ -50,6 +54,12 @@ public class ArticleController {
         List<Article>sss=articleService.findAllByArtTypeId(typeId);
         sss.forEach(System.out::println);
         return articleService.findAllByArtTypeId(typeId);
+    }
+
+
+    @PostMapping("/pagearticle")
+    List<ViewArtAndUser>getArtAndUserInfo(){
+        return articleRepositry.findViewArtAndUser();
     }
     
 
