@@ -50,4 +50,8 @@ class UniversityforumApplicationTests {
         articleTypeService.getallArticleType().forEach(System.out::println);
     }
 
+    @Test
+    void Testaa(){
+        articleRepositry.findViewArtAndUser().forEach(System.out::println);
+    }
 }
