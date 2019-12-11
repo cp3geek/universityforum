@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface ArticleRepositry extends JpaRepository<Article,Long> {
-
+    List<Article>findAllByArtTypeId(Long typeId);
 
 
 }

@@ -29,5 +29,10 @@ public class ArticleServiceImpl implements ArticleService {
         return articleRepositry.findAll(pageable);
     }
 
+    @Override
+    public List<Article> findAllByArtTypeId(Long typeId) {
+        return articleRepositry.findAllByArtTypeId(typeId);
+    }
+
 
 }

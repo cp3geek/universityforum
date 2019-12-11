@@ -42,6 +42,15 @@ public class ArticleController {
 //        System.out.println("当前第几页"+pages.getNumber()+1);
         return pages;
     }
+
+
+    @PostMapping("/getarticlebytypeid")
+    List<Article>getArticleByTypeId(Long typeId){
+        System.out.println(typeId);
+        List<Article>sss=articleService.findAllByArtTypeId(typeId);
+        sss.forEach(System.out::println);
+        return articleService.findAllByArtTypeId(typeId);
+    }
     
 
 
