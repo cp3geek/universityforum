@@ -2,6 +2,7 @@ package com.cqgcxy.universityforum.service.impl;
 
 import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.repository.ArticleRepositry;
+import com.cqgcxy.universityforum.resultmap.ViewArtAndUser;
 import com.cqgcxy.universityforum.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -30,7 +31,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public List<Article> findAllByArtTypeId(Long typeId) {
+    public List<ViewArtAndUser> findAllByArtTypeId(Long typeId) {
         return articleRepositry.findAllByArtTypeId(typeId);
     }
 

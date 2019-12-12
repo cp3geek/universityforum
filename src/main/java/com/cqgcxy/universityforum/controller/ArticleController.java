@@ -49,10 +49,8 @@ public class ArticleController {
 
 
     @PostMapping("/getarticlebytypeid")
-    List<Article>getArticleByTypeId(Long typeId){
+    List<ViewArtAndUser>getArticleByTypeId(Long typeId){
         System.out.println(typeId);
-        List<Article>sss=articleService.findAllByArtTypeId(typeId);
-        sss.forEach(System.out::println);
         return articleService.findAllByArtTypeId(typeId);
     }
 

@@ -11,7 +11,8 @@ import java.util.List;
 
 @Repository
 public interface ArticleRepositry extends JpaRepository<Article,Long> {
-    List<Article>findAllByArtTypeId(Long typeId);
+    @Query("SELECT new com.cqgcxy.universityforum.resultmap.ViewArtAndUser(a, u) FROM Article a, User u WHERE a.artUserId = u.userId and a.artTypeId=:typeId")
+    List<ViewArtAndUser>findAllByArtTypeId(Long typeId);
 
     @Query("SELECT new com.cqgcxy.universityforum.resultmap.ViewArtAndUser(a, u) FROM Article a, User u WHERE a.artUserId = u.userId")
     List<ViewArtAndUser>findViewArtAndUser();
