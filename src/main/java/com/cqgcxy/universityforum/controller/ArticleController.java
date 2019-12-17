@@ -64,10 +64,10 @@ public class ArticleController {
     @GetMapping("/getpagearticle")
     Page<ViewArtAndUser>getArticleAndUser(
             @RequestParam(value = "page",defaultValue = "0")Integer page,
-            @RequestParam(value = "size",defaultValue = "5")Integer size)
+            @RequestParam(value = "size",defaultValue = "2")Integer size)
     {
         Page<ViewArtAndUser>pages=articleService.findArtAndUser(page,size);
-
+        System.out.println(page);
         return pages;
     }
 

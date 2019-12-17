@@ -37,7 +37,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public Page<ViewArtAndUser> findArtAndUser(Integer page, Integer size) {
-        Pageable pageable=PageRequest.of(page,size,Sort.Direction.ASC,"artLikeNum");
+        Pageable pageable=PageRequest.of(page,size,Sort.Direction.DESC,"artLikeNum");
         return articleRepositry.findViewArtAndUserMain(pageable);
     }
 
