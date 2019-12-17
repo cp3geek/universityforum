@@ -35,5 +35,11 @@ public class ArticleServiceImpl implements ArticleService {
         return articleRepositry.findAllByArtTypeId(typeId);
     }
 
+    @Override
+    public Page<ViewArtAndUser> findArtAndUser(Integer page, Integer size) {
+        Pageable pageable=PageRequest.of(page,size,Sort.Direction.ASC,"artLikeNum");
+        return articleRepositry.findViewArtAndUserMain(pageable);
+    }
+
 
 }

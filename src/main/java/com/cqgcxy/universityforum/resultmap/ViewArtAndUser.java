@@ -3,7 +3,9 @@ package com.cqgcxy.universityforum.resultmap;
 import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
 
-public class ViewArtAndUser {
+import java.io.Serializable;
+
+public class ViewArtAndUser implements Serializable {
     @Override
     public String toString() {
         return "ViewArtAndUser{" +

@@ -9,6 +9,7 @@ import com.cqgcxy.universityforum.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -59,7 +60,16 @@ public class ArticleController {
     List<ViewArtAndUser>getArtAndUserInfo(){
         return articleRepositry.findViewArtAndUser();
     }
-    
+
+    @GetMapping("/getpagearticle")
+    Page<ViewArtAndUser>getArticleAndUser(
+            @RequestParam(value = "page",defaultValue = "0")Integer page,
+            @RequestParam(value = "size",defaultValue = "5")Integer size)
+    {
+        Page<ViewArtAndUser>pages=articleService.findArtAndUser(page,size);
+
+        return pages;
+    }
 
 
 

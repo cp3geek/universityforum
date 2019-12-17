@@ -54,4 +54,8 @@ class UniversityforumApplicationTests {
     void Testaa(){
         articleRepositry.findViewArtAndUser().forEach(System.out::println);
     }
+    @Test
+    void Testpage(){
+
+    }
 }
