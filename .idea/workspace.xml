@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/60f3e3cd-0081-48a0-9009-8edcb000b82e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/60f3e3cd-0081-48a0-9009-8edcb000b82e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/universityforum.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cqgcxy/universityforum/UniversityforumApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cqgcxy/universityforum/UniversityforumApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universityforum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/universityforum.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\universityforum\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -82,6 +89,11 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -92,6 +104,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -218,16 +231,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -281,7 +284,20 @@
       <workItem from="1576204473323" duration="1237000" />
       <workItem from="1576318057055" duration="55000" />
       <workItem from="1576551612623" duration="1444000" />
-      <workItem from="1576562027817" duration="10385000" />
+      <workItem from="1576562027817" duration="14691000" />
+      <workItem from="1576590591902" duration="9000" />
+      <workItem from="1576673761170" duration="1300000" />
+      <workItem from="1576679563956" duration="12000" />
+      <workItem from="1576742640810" duration="1396000" />
+      <workItem from="1576745634198" duration="82000" />
+      <workItem from="1576752816121" duration="630000" />
+      <workItem from="1576754169646" duration="385000" />
+      <workItem from="1576754641792" duration="12000" />
+      <workItem from="1576754711098" duration="132000" />
+      <workItem from="1576754858699" duration="21000" />
+      <workItem from="1576754906897" duration="186000" />
+      <workItem from="1576755625521" duration="305000" />
+      <workItem from="1576755957900" duration="4576000" />
     </task>
     <servers />
   </component>
@@ -300,5 +316,51 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="108" key="FileChooserDialogImpl" timestamp="1576754871747">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="458" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576754871747" />
+    <state width="1325" height="190" key="GridCell.Tab.0.bottom" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state width="1325" height="190" key="GridCell.Tab.0.center" timestamp="1576755093083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576755093083" />
+    <state width="1325" height="190" key="GridCell.Tab.0.left" timestamp="1576755093083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576755093083" />
+    <state width="1325" height="190" key="GridCell.Tab.0.right" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state width="1325" height="190" key="GridCell.Tab.1.bottom" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state width="1325" height="190" key="GridCell.Tab.1.center" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state width="1325" height="190" key="GridCell.Tab.1.left" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state width="1325" height="190" key="GridCell.Tab.1.right" timestamp="1576755093084">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1325" height="190" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
+    <state x="154" y="14" width="1094" height="708" key="SettingsEditor" timestamp="1576755072334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="154" y="14" width="1094" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576755072334" />
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1576754172520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576754172520" />
   </component>
 </project>

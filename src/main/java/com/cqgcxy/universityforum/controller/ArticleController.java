@@ -66,8 +66,14 @@ public class ArticleController {
             @RequestParam(value = "page",defaultValue = "0")Integer page,
             @RequestParam(value = "size",defaultValue = "2")Integer size)
     {
-        Page<ViewArtAndUser>pages=articleService.findArtAndUser(page,size);
         System.out.println(page);
+        Page<ViewArtAndUser> pages;
+        if (page!=0) {
+             pages = articleService.findArtAndUser(page-1, size);
+            System.out.println(page-1);
+        }else{
+             pages = articleService.findArtAndUser(page, size);
+        }
         return pages;
     }
 
