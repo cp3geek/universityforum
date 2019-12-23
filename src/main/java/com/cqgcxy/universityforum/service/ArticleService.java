@@ -12,4 +12,5 @@ public interface ArticleService {
     Page<Article>findArticleNoCriteria(Integer page,Integer size);//无条件查询
     List<ViewArtAndUser>findAllByArtTypeId(Long typeId);
     Page<ViewArtAndUser>findArtAndUser(Integer page,Integer size);
+    Page<ViewArtAndUser>findnew(Integer page,Integer size);
 }

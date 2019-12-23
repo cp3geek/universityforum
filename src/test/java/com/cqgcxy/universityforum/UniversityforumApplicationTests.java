@@ -5,7 +5,7 @@ package com.cqgcxy.universityforum;
 import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.repository.ArticleRepositry;
-import com.cqgcxy.universityforum.repository.TestSort;
+
 import com.cqgcxy.universityforum.repository.UserRepository;
 import com.cqgcxy.universityforum.service.ArticleService;
 import com.cqgcxy.universityforum.service.ArticleTypeService;
@@ -21,12 +21,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static org.springframework.data.domain.Sort.Direction.DESC;
+
 @SpringBootTest
 class UniversityforumApplicationTests {
 
 
-    @Autowired
-    TestSort testSort;
 
     @Autowired
     UserRepository userRepository;
@@ -64,7 +64,7 @@ class UniversityforumApplicationTests {
     }
     @Test
     void Testpage(){
-        
+
     }
 
 

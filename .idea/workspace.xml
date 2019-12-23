@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cqgcxy/universityforum/UniversityforumApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,23 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UniversityforumApplicationTests.testPage">
-    <configuration name="UniversityforumApplicationTests.TestAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="universityforum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqgcxy.universityforum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cqgcxy.universityforum" />
-      <option name="MAIN_CLASS_NAME" value="com.cqgcxy.universityforum.UniversityforumApplicationTests" />
-      <option name="METHOD_NAME" value="TestAddUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.UniversityforumApplication">
     <configuration name="UniversityforumApplicationTests.TestArticleType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="universityforum" />
       <extension name="coverage">
@@ -178,7 +167,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniversityforumApplicationTests.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UniversityforumApplicationTests.Testpage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="universityforum" />
       <extension name="coverage">
         <pattern>
@@ -188,23 +177,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cqgcxy.universityforum" />
       <option name="MAIN_CLASS_NAME" value="com.cqgcxy.universityforum.UniversityforumApplicationTests" />
-      <option name="METHOD_NAME" value="testPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniversityforumApplicationTests.testnewpost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="universityforum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cqgcxy.universityforum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cqgcxy.universityforum" />
-      <option name="MAIN_CLASS_NAME" value="com.cqgcxy.universityforum.UniversityforumApplicationTests" />
-      <option name="METHOD_NAME" value="testnewpost" />
+      <option name="METHOD_NAME" value="Testpage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,13 +190,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UniversityforumApplicationTests.Testaa" />
+      <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticleType" />
+      <item itemvalue="JUnit.UniversityforumApplicationTests.Testpage" />
+      <item itemvalue="Spring Boot.UniversityforumApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UniversityforumApplicationTests.testPage" />
-        <item itemvalue="JUnit.UniversityforumApplicationTests.testnewpost" />
+        <item itemvalue="JUnit.UniversityforumApplicationTests.Testpage" />
         <item itemvalue="JUnit.UniversityforumApplicationTests.Testaa" />
         <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticleType" />
-        <item itemvalue="JUnit.UniversityforumApplicationTests.TestAddUser" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +274,8 @@
       <workItem from="1576803371559" duration="213000" />
       <workItem from="1576805763919" duration="316000" />
       <workItem from="1577061739390" duration="2099000" />
-      <workItem from="1577080352867" duration="6492000" />
+      <workItem from="1577080352867" duration="7600000" />
+      <workItem from="1577096706572" duration="2380000" />
     </task>
     <servers />
   </component>

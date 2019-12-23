@@ -77,6 +77,17 @@ public class ArticleController {
         return pages;
     }
 
+    @GetMapping("/getnew")
+    Page<ViewArtAndUser>getnew(
+            @RequestParam(value = "page",defaultValue = "0")Integer page,
+            @RequestParam(value = "size",defaultValue = "20")Integer size)
+    {
+        Page<ViewArtAndUser> pages;
+        pages = articleService.findnew(page,size);
+        return pages;
+    }
+
+
 
 
 
