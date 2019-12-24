@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +268,7 @@
       <workItem from="1576805763919" duration="316000" />
       <workItem from="1577061739390" duration="2099000" />
       <workItem from="1577080352867" duration="7600000" />
-      <workItem from="1577096706572" duration="2380000" />
+      <workItem from="1577096706572" duration="3279000" />
     </task>
     <servers />
   </component>
