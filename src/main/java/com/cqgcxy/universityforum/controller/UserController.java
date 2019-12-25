@@ -2,14 +2,12 @@ package com.cqgcxy.universityforum.controller;
 
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.service.UserService;
+import jdk.nashorn.internal.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -38,12 +36,13 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public int signUp(User user){
+    public int signUp(String user){
         //bug
-        Date date = new Date();//获得系统时间
-        user.setUserTime(date);
-        user.setUserImg("default.jpg");
+        //曲线救国，传变量
+
         System.out.println(user);
+        Date date = new Date();//获得系统时间
+
 //        User newUser=userService.userRegister(user);
 //        if( newUser==null)return 404;
         return 200;
