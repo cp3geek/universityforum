@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -33,6 +35,18 @@ public class UserController {
         Page<User> pages = userService.findhotuser(page,size);
 
         return pages;
+    }
+
+    @PostMapping("/register")
+    public int signUp(User user){
+        //bug
+        Date date = new Date();//获得系统时间
+        user.setUserTime(date);
+        user.setUserImg("default.jpg");
+        System.out.println(user);
+//        User newUser=userService.userRegister(user);
+//        if( newUser==null)return 404;
+        return 200;
     }
 
 
