@@ -1,10 +1,12 @@
 package com.cqgcxy.universityforum.domain;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -28,6 +30,8 @@ public class User {
     private String userSex;
     private String userPhone;
     private Byte userStatus;//用户状态1：激活 0：未激活
+
+
     private Date userTime;//注册时间
     private String userShow;//用户个性签名
     private String userBlog;//用户主页
