@@ -56,6 +56,7 @@ public class ArticleController {
     }
 
 
+    //这里改成分页查询，做无限滚动，提升用户体验
     @PostMapping("/pagearticle")
     List<ViewArtAndUser>getArtAndUserInfo(){
         return articleRepositry.findViewArtAndUser();
