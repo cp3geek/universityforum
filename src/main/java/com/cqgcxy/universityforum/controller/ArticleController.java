@@ -60,8 +60,9 @@ public class ArticleController {
     @PostMapping("/pagearticle")
     Page<ViewArtAndUser>getArtAndUserInfo(
             @RequestParam(value = "page",defaultValue = "0")Integer page,
-            @RequestParam(value = "size",defaultValue = "8")Integer size
+            @RequestParam(value = "size",defaultValue = "5")Integer size
     ){
+        System.out.println(page);
         return articleService.findAllArtAndUser(page,size);
     }
 
