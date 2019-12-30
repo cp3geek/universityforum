@@ -58,8 +58,11 @@ public class ArticleController {
 
     //这里改成分页查询，做无限滚动，提升用户体验
     @PostMapping("/pagearticle")
-    List<ViewArtAndUser>getArtAndUserInfo(){
-        return articleRepositry.findViewArtAndUser();
+    Page<ViewArtAndUser>getArtAndUserInfo(
+            @RequestParam(value = "page",defaultValue = "0")Integer page,
+            @RequestParam(value = "size",defaultValue = "8")Integer size
+    ){
+        return articleService.findAllArtAndUser(page,size);
     }
 
     @GetMapping("/getpagearticle")

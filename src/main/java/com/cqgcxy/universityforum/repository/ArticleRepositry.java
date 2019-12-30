@@ -19,7 +19,7 @@ public interface ArticleRepositry extends JpaRepository<Article,Long> {
     List<ViewArtAndUser>findAllByArtTypeId(Long typeId);
 
     @Query("SELECT new com.cqgcxy.universityforum.resultmap.ViewArtAndUser(a, u) FROM Article a, User u WHERE a.artUserId = u.userId ")
-    List<ViewArtAndUser>findViewArtAndUser();
+    Page<ViewArtAndUser>findViewArtAndUser(Pageable pageable);
 
     @Query("SELECT new com.cqgcxy.universityforum.resultmap.ViewArtAndUser(a, u) FROM Article a, User u WHERE a.artUserId = u.userId")
     Page<ViewArtAndUser>findViewArtAndUserMain(Pageable pageable);

@@ -60,7 +60,7 @@ class UniversityforumApplicationTests {
 
     @Test
     void Testaa(){
-        articleRepositry.findViewArtAndUser().forEach(System.out::println);
+//        articleRepositry.findViewArtAndUser().forEach(System.out::println);
     }
     @Test
     void Testpage(){

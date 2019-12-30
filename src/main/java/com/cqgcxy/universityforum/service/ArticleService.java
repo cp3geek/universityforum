@@ -13,4 +13,5 @@ public interface ArticleService {
     List<ViewArtAndUser>findAllByArtTypeId(Long typeId);
     Page<ViewArtAndUser>findArtAndUser(Integer page,Integer size);
     Page<ViewArtAndUser>findnew(Integer page,Integer size);
+    Page<ViewArtAndUser>findAllArtAndUser(Integer page,Integer size);
 }

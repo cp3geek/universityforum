@@ -47,5 +47,11 @@ public class ArticleServiceImpl implements ArticleService {
         return articleRepositry.findViewArtAndUserMain(pageable);
     }
 
+    @Override
+    public Page<ViewArtAndUser> findAllArtAndUser(Integer page, Integer size) {
+        Pageable pageable=PageRequest.of(page,size, Sort.Direction.DESC,"artView");
+        return articleRepositry.findViewArtAndUser(pageable);
+    }
+
 
 }
