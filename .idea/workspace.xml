@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/universityforum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/universityforum.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -281,7 +283,8 @@
       <workItem from="1577320627252" duration="1033000" />
       <workItem from="1577341041466" duration="2195000" />
       <workItem from="1577407068164" duration="3399000" />
-      <workItem from="1577666057904" duration="9953000" />
+      <workItem from="1577666057904" duration="11207000" />
+      <workItem from="1577752371957" duration="3545000" />
     </task>
     <servers />
   </component>

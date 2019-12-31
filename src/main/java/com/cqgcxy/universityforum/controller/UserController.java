@@ -1,5 +1,6 @@
 package com.cqgcxy.universityforum.controller;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.service.UserService;
 import jdk.nashorn.internal.parser.JSONParser;
@@ -7,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
 import java.text.SimpleDateFormat;
@@ -21,6 +23,8 @@ public class UserController {
     @PostMapping(value = "/userlogin")
     public User userLogin(String email, String password){
         System.out.println(email+" "+password);
+        BCryptPasswordEncoder encoder=new BCryptPasswordEncoder();
+//        encoder.matches()
         return userService.userLogin(email,password);
 
     }
@@ -45,13 +49,15 @@ public class UserController {
         user.setUserImg("default.jpg");
         user.setUserEmail(userEmail);
         user.setUserName(userName);
-        user.setUserPassword(userPassword);
+
         user.setUserPhone(userPhone);
         user.setUserSex(userSex);
         user.setUserShow(userShow);
         user.setUserBlog("myself");
         Date date = new Date();//获得系统时间
         user.setUserTime(date);
+        BCryptPasswordEncoder bCryptPasswordEncoder=new BCryptPasswordEncoder();
+        user.setUserPassword(bCryptPasswordEncoder.encode(userPassword));
 
 
 
