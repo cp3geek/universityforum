@@ -32,7 +32,7 @@ public class ViewComAndUser implements Serializable {
         this.comment=comment;
     }
 
-    public ViewComAndUser(User user, Comment comment) {
+    public ViewComAndUser(Comment comment,User user) {
         this.user = user;
         this.comment = comment;
     }

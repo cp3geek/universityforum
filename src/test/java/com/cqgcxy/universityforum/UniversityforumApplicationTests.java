@@ -6,6 +6,7 @@ import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
 import com.cqgcxy.universityforum.repository.ArticleRepositry;
 
+import com.cqgcxy.universityforum.repository.CommentRepositry;
 import com.cqgcxy.universityforum.repository.UserRepository;
 import com.cqgcxy.universityforum.service.ArticleService;
 import com.cqgcxy.universityforum.service.ArticleTypeService;
@@ -25,6 +26,10 @@ import static org.springframework.data.domain.Sort.Direction.DESC;
 
 @SpringBootTest
 class UniversityforumApplicationTests {
+
+
+    @Autowired
+    CommentRepositry commentRepositry;
 
 
 
@@ -64,6 +69,7 @@ class UniversityforumApplicationTests {
     }
     @Test
     void Testpage(){
+
 
     }
 
