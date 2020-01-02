@@ -1,6 +1,7 @@
 package com.cqgcxy.universityforum.domain;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -27,5 +28,6 @@ public class Comment {
     private String comContent;//评论正文
     private Long comArtId;//文章id
     private Long comUserId;//评论用户得id
+    @JsonFormat(timezone = "GMT+8",pattern = "YYYY-MM-DD hh:mm:ss")
     private Date comTime;//评论时间
 }

@@ -20,11 +20,12 @@ public class CommentController {
     Page<ViewComAndUser>findComment
             (
                     @RequestParam(value = "page",defaultValue = "0")Integer page,
-                    @RequestParam(value = "size",defaultValue = "5")Integer size,
+                    @RequestParam(value = "size",defaultValue = "30")Integer size,
                     @RequestParam(value = "artId")Long artId
             )
     {
-        System.out.println(artId);
+
+
         return commentService.findViewComAndUser(page,size,artId);
 
     }

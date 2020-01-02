@@ -4,13 +4,10 @@
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/CommentRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/CommentRepositry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/resultmap/ViewComAndUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/resultmap/ViewComAndUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/domain/Comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cqgcxy/universityforum/UniversityforumApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/repository/CommentRepositry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/repository/CommentRepositry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cqgcxy/universityforum/UniversityforumApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cqgcxy/universityforum/UniversityforumApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/CommentServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +294,7 @@
       <workItem from="1577666057904" duration="11207000" />
       <workItem from="1577752371957" duration="6097000" />
       <workItem from="1577869861557" duration="727000" />
-      <workItem from="1577925430257" duration="6673000" />
+      <workItem from="1577925430257" duration="9892000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ public class CommentServiceImpl implements CommentService {
 
     @Override
     public Page<ViewComAndUser> findViewComAndUser(Integer page, Integer size,Long artId) {
-        Pageable pageable = PageRequest.of(page,size,Sort.Direction.ASC,"comTime");
+        Pageable pageable = PageRequest.of(page,size,Sort.Direction.DESC,"comTime");
         return commentRepositry.findViewComAndUser(pageable,artId);
     }
 }
