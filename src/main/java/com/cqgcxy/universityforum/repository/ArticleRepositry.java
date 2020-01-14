@@ -24,6 +24,8 @@ public interface ArticleRepositry extends JpaRepository<Article,Long> {
     @Query("SELECT new com.cqgcxy.universityforum.resultmap.ViewArtAndUser(a, u) FROM Article a, User u WHERE a.artUserId = u.userId")
     Page<ViewArtAndUser>findViewArtAndUserMain(Pageable pageable);
 
+    List<Article>findAllByArtUserId(Long userId);
+
 
 
 

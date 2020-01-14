@@ -113,6 +113,14 @@ public class ArticleController {
     }
 
 
+    @PostMapping("/findartbyuserid")
+    List<Article>findArtByUserId(@RequestParam(value = "userId")Long userId){
+
+
+        return articleRepositry.findAllByArtUserId(userId);
+
+    }
+
 
 
 

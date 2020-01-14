@@ -4,12 +4,8 @@
     <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqgcxy/universityforum/repository/ArticleRepositry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/controller/CommentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqgcxy/universityforum/service/impl/ArticleServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +39,6 @@
         <item name="MySQL - forum@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="article: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="comment: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -302,7 +284,7 @@
       <workItem from="1577964440264" duration="1389000" />
       <workItem from="1578011767209" duration="169000" />
       <workItem from="1578897948290" duration="662000" />
-      <workItem from="1578969717563" duration="7274000" />
+      <workItem from="1578969717563" duration="8326000" />
     </task>
     <servers />
   </component>
