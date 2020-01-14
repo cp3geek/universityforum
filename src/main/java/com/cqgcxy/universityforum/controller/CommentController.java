@@ -41,9 +41,10 @@ public class CommentController {
         comment.setComContent(text);
         comment.setComUserId(comUserId);
         comment.setComTime(date);
-        System.out.println(comment);
+
+
         //添加评论，写dao层增加方法，明日更新
 
-        return 200;
+        return commentService.insertComment(comment)!=null?200:404;
     }
 }
