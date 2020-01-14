@@ -1,9 +1,11 @@
 package com.cqgcxy.universityforum.controller;
 
+import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.Comment;
 import com.cqgcxy.universityforum.resultmap.ViewComAndUser;
 import com.cqgcxy.universityforum.service.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -47,4 +49,7 @@ public class CommentController {
 
         return commentService.insertComment(comment)!=null?200:404;
     }
+
+
+
 }

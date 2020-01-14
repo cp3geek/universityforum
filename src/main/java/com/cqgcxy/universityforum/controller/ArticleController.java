@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.xml.ws.Action;
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -90,6 +91,25 @@ public class ArticleController {
         Page<ViewArtAndUser> pages;
         pages = articleService.findnew(page,size);
         return pages;
+    }
+
+
+    @PostMapping("/newpost")
+    int newPost(@RequestParam(value = "userId")Long userId,
+                @RequestParam(value = "title")String title,
+                @RequestParam(value = "text")String text,
+                @RequestParam(value = "select")Long select)
+    {
+
+        Article article=new Article();
+        article.setArtUserId(userId);
+        article.setArtTitle(title);
+        article.setArtContent(text);
+        article.setArtTypeId(select);
+        Date date=new Date();
+        article.setArtCreTime(date);
+
+        return articleService.Post(article)!=null?200:400;
     }
 
 

@@ -14,4 +14,5 @@ public interface ArticleService {
     Page<ViewArtAndUser>findArtAndUser(Integer page,Integer size);
     Page<ViewArtAndUser>findnew(Integer page,Integer size);
     Page<ViewArtAndUser>findAllArtAndUser(Integer page,Integer size);
+    Article Post(Article article);
 }
