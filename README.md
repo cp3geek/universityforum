@@ -7,4 +7,4 @@
 开始写后台
 后台就写了一点基本得功能，不够完善（后期再优化）
 请结合前端项目使用
-前端项目请访问https://github.com/Chp3/forum
+前端项目请访问https://github.com/cp3geek/forum
