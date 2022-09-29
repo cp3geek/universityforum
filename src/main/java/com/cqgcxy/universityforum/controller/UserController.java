@@ -2,6 +2,7 @@ package com.cqgcxy.universityforum.controller;
 
 import ch.qos.logback.core.net.SyslogOutputStream;
 import com.cqgcxy.universityforum.domain.User;
+import com.cqgcxy.universityforum.repository.UserRepository;
 import com.cqgcxy.universityforum.service.UserService;
 import jdk.nashorn.internal.parser.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +15,15 @@ import org.springframework.web.bind.annotation.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-
+/*
+* 用户注册登录
+* */
 @RestController
 public class UserController {
     @Autowired
     UserService userService;
+    @Autowired
+    UserRepository userRepository;
 
     @PostMapping(value = "/userlogin")
     public User userLogin(String email, String password){
@@ -64,6 +69,12 @@ public class UserController {
         User newUser=userService.userRegister(user);
         if( newUser==null)return 404;
         return 200;
+    }
+
+
+    @PostMapping("/getuserlist")
+    List<User>getUserList(){
+        return userRepository.findAll();
     }
 
 

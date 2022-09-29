@@ -6,7 +6,8 @@ import com.cqgcxy.universityforum.service.impl.AdminServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.*;
-
+/*
+* 管理员登陆接口*/
 @RestController
 public class AdminController {
     @Autowired

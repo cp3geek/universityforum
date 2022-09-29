@@ -17,7 +17,16 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.xml.ws.Action;
 import java.util.Date;
 import java.util.List;
-
+/*
+* 获取帖子
+* 分页查询
+* 根据类型查找帖子
+* 获取新发布的帖子
+* 发布帖子
+* 通过用户id获取帖子
+*
+*
+* */
 @RestController
 public class ArticleController {
 

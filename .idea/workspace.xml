@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="9ccfba38-c115-43ce-936b-c2e4a48699d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +37,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="article: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -58,25 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="E:\universityforum\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\WorkSoftWare\apache-maven-3.6.1\repo" />
-        <option name="mavenHome" value="D:/WorkSoftWare/apache-maven-3.6.1" />
+        <option name="mavenHome" value="D:\WorkSoftWare\apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\WorkSoftWare\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1TYsQiMYfFXRSz8C54F3nQ2amE5" />
@@ -85,7 +66,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -98,36 +78,41 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oildepot" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\universityforum\src\main\resources\static" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cqgcxy.universityforum.service.impl" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\universityforum\src\main\resources\static" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.UniversityforumApplication">
+  <component name="RunManager" selected="JUnit.UniversityforumApplicationTests.TestArticle">
+    <configuration name="UniversityforumApplicationTests.TestArticle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="universityforum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqgcxy.universityforum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cqgcxy.universityforum" />
+      <option name="MAIN_CLASS_NAME" value="com.cqgcxy.universityforum.UniversityforumApplicationTests" />
+      <option name="METHOD_NAME" value="TestArticle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UniversityforumApplicationTests.TestArticleType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="universityforum" />
       <extension name="coverage">
@@ -187,16 +172,19 @@
       <item itemvalue="JUnit.UniversityforumApplicationTests.Testaa" />
       <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticleType" />
       <item itemvalue="JUnit.UniversityforumApplicationTests.Testpage" />
+      <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticle" />
       <item itemvalue="Spring Boot.UniversityforumApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticle" />
         <item itemvalue="JUnit.UniversityforumApplicationTests.Testpage" />
         <item itemvalue="JUnit.UniversityforumApplicationTests.Testaa" />
         <item itemvalue="JUnit.UniversityforumApplicationTests.TestArticleType" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -290,69 +278,61 @@
       <workItem from="1578897948290" duration="662000" />
       <workItem from="1578969717563" duration="11119000" />
       <workItem from="1579058232753" duration="2617000" />
+      <workItem from="1579066253128" duration="5517000" />
+      <workItem from="1579247901098" duration="6000" />
+      <workItem from="1586178097388" duration="6193000" />
+      <workItem from="1586219192341" duration="1969000" />
+      <workItem from="1586257294262" duration="734000" />
+      <workItem from="1586263020468" duration="2299000" />
+      <workItem from="1586325400718" duration="2433000" />
+      <workItem from="1587093896321" duration="134000" />
+      <workItem from="1587095619585" duration="22000" />
+      <workItem from="1587603945158" duration="48000" />
+      <workItem from="1590154664497" duration="2248000" />
+      <workItem from="1590644937992" duration="1623000" />
+      <workItem from="1590724268853" duration="191000" />
+      <workItem from="1590747009909" duration="333000" />
+      <workItem from="1590765990313" duration="342000" />
+      <workItem from="1591161725003" duration="1458000" />
+      <workItem from="1591255663983" duration="15000" />
+      <workItem from="1592183487097" duration="14000" />
+      <workItem from="1592452753017" duration="1394000" />
+      <workItem from="1592527384786" duration="11000" />
+      <workItem from="1600306081052" duration="1809000" />
+      <workItem from="1600389125893" duration="3639000" />
+      <workItem from="1600648450881" duration="3440000" />
+      <workItem from="1600734925366" duration="2407000" />
+      <workItem from="1600820789836" duration="4033000" />
+      <workItem from="1603759307186" duration="24000" />
+      <workItem from="1603759402147" duration="21000" />
+      <workItem from="1603762248372" duration="698000" />
+      <workItem from="1603844879004" duration="176000" />
+      <workItem from="1609561480343" duration="922000" />
+      <workItem from="1613798334030" duration="943000" />
+      <workItem from="1613826247414" duration="8828000" />
+      <workItem from="1613877903812" duration="2274000" />
+      <workItem from="1614146342687" duration="1852000" />
+      <workItem from="1620039139723" duration="214000" />
+      <workItem from="1620133429599" duration="17000" />
+      <workItem from="1634736919677" duration="16000" />
+      <workItem from="1636533255997" duration="52000" />
+      <workItem from="1636547042874" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="458" y="108" key="FileChooserDialogImpl" timestamp="1576754871747">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="458" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576754871747" />
-    <state width="1325" height="190" key="GridCell.Tab.0.bottom" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state width="1325" height="190" key="GridCell.Tab.0.center" timestamp="1576755093083">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576755093083" />
-    <state width="1325" height="190" key="GridCell.Tab.0.left" timestamp="1576755093083">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576755093083" />
-    <state width="1325" height="190" key="GridCell.Tab.0.right" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state width="1325" height="190" key="GridCell.Tab.1.bottom" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state width="1325" height="190" key="GridCell.Tab.1.center" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state width="1325" height="190" key="GridCell.Tab.1.left" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state width="1325" height="190" key="GridCell.Tab.1.right" timestamp="1576755093084">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1325" height="190" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576755093084" />
-    <state x="154" y="14" width="1094" height="708" key="SettingsEditor" timestamp="1576755072334">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="154" y="14" width="1094" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576755072334" />
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1576754172520">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="375" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576754172520" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

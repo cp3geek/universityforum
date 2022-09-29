@@ -4,7 +4,7 @@ import com.cqgcxy.universityforum.domain.Article;
 import com.cqgcxy.universityforum.domain.User;
 
 import java.io.Serializable;
-
+/*结果集*/
 public class ViewArtAndUser implements Serializable {
     @Override
     public String toString() {

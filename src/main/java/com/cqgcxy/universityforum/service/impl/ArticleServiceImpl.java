@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
+//对帖子一系列操作服务层
 @Service
 public class ArticleServiceImpl implements ArticleService {
     @Autowired

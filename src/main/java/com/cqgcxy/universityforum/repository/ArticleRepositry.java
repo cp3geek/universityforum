@@ -26,8 +26,4 @@ public interface ArticleRepositry extends JpaRepository<Article,Long> {
 
     List<Article>findAllByArtUserId(Long userId);
 
-
-
-
-
 }

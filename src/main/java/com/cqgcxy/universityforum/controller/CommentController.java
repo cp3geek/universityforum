@@ -11,8 +11,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.sql.SQLOutput;
 import java.util.Date;
-
+/*
+* 评论
+* */
 @RestController
 public class CommentController {
 
@@ -27,6 +30,8 @@ public class CommentController {
                     @RequestParam(value = "size",defaultValue = "30")Integer size,
                     @RequestParam(value = "artId")Long artId)
     {
+        Page<ViewComAndUser>ss=commentService.findViewComAndUser(page,size,artId);
+        System.out.println(ss.getContent());
         return commentService.findViewComAndUser(page,size,artId);
     }
 

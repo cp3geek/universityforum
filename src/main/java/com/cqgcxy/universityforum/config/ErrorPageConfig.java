@@ -10,7 +10,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 
 import java.nio.file.Path;
-
+/*
+* 全局配置：错误页面
+* */
 @Configuration
 public class ErrorPageConfig {
 
